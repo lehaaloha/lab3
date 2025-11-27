@@ -1,5 +1,9 @@
-- name: Install dependencies
-  run: |
-    python -m pip install --upgrade pip
-    pip install Flask Werkzeug Pillow
-#lomment dlya testa
+name: Test Workflow
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Workflow работает!"
