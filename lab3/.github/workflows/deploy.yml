@@ -2,3 +2,4 @@
   run: |
     python -m pip install --upgrade pip
     pip install Flask Werkzeug Pillow
+#lomment dlya testa
